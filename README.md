@@ -1,22 +1,3 @@
-# mernAssignment-by-CGG
-
-Awesome! Since your MERN stack project is now fully deployed, let’s write a clean and professional **GitHub repository README description** that explains:
-
-1. What the project does
-2. Tech stack used
-3. Live site link
-4. Backend API link
-5. Features
-6. How to set it up locally
-7. Deployment guide
-
----
-
-## ✅ `README.md` Content for Your GitHub Repo
-
-You can copy-paste this into your `README.md` file:
-
-````md
 # MERN Contact Form Landing Page
 
 A full-stack MERN application with a responsive landing page, a contact form, and a contact management dashboard.
@@ -73,7 +54,7 @@ To run this project on your local machine:
 git clone https://github.com/himakshi16/mernAssignmentCGG.git
 cd mernAssignmentCGG
 )  
-[Visit Backend API](https://mernassignment-backend.onrender.com/api/contact)
+[Visit Backend API](https://mernassignment-backend.onrender.com)
 
 ---
 
