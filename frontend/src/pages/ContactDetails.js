@@ -7,7 +7,7 @@ const ContactDetails = () => {
   useEffect(() => {
     const fetchContacts = async () => {
       try {
-        const res = await fetch('/api/contact');
+        const res = await fetch('https://mernassignment-backend.onrender.com/api/contact');
         const data = await res.json();
         setContacts(data);
       } catch (err) {
@@ -23,7 +23,7 @@ const ContactDetails = () => {
     if (!window.confirm('Are you sure you want to delete this contact?')) return;
 
     try {
-      const res = await fetch(`/api/contact/${id}`, { method: 'DELETE' });
+      const res = await fetch(`https://mernassignment-backend.onrender.com/api/contact/${id}`, { method: 'DELETE' });
       if (res.ok) {
         setContacts((prev) => prev.filter((c) => c._id !== id));
       } else {
